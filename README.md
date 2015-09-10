@@ -1,6 +1,23 @@
 # SaferFonts
 
+The goal of SaferFonts is to provide font's names in a safer than the tradional. Let's imagine we want to set a `UILabel`'s font:
 
+```swift
+myLabel.font = UIFont(name: "ArialMT", size: 14)!
+```
+
+This approach is error prone and inherently invites for duplication.
+
+1) We could easily mispell `"ArialMT"`
+2) If we need to use the same font in some other place, we will start having duplication
+
+SaferFonts, in this case, just bundles the font in a convinient enum that you can use:
+
+```swift
+myLabel.font = UIFont(name: ArialMT.Default.rawValue, size: 14)!
+```
+
+As you might have noticed by now, SaferFont is not really a 3rd party library that you can just get using Carthage or Cocopods, but an approach and a databae of fonts that you can just freely use.
 
 ###ArialMT
 
