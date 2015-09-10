@@ -21,7 +21,7 @@ As you might have noticed by now, SaferFont is not a 3rd party library that you 
 
 ###The Font Protocol
 
-The [Font protocol](https://github.com/RuiAAPeres/SaferFonts/blob/master/Font.swift)(suggested by [renatorodrigues](https://github.com/renatorodrigues), can also be used to make this enum easier to consume. For example with `ArialMT` :
+The [Font protocol](https://github.com/RuiAAPeres/SaferFonts/blob/master/Font.swift)(suggested by [renatorodrigues](https://github.com/renatorodrigues)), can also be used to make this enum easier to consume. For example with `ArialMT` :
 
 ```swift
 let arialFont = UIFont(font: HelveticaNeue.Bold, size: 15)
