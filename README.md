@@ -1,4 +1,4 @@
-# SaferFonts
+# Why "Safer"?
 
 The goal of SaferFonts is to provide font's names in a safer manner.
 
@@ -10,7 +10,7 @@ myLabel.font = UIFont(name: "ArialMT", size: 14)!
 
 This approach is error prone and inherently invites for duplication.
 
-1. We could easily misspell `"ArialMT"`.
+1. We could easily misspell `"ArialMT"` and  crash the app. Since `UIFont`'s `name:size:` returns an optional (and in this particular case it doesn't make sense to use optional binding) for pragmatic reasons we would just force unwrapp it. 
 2. If we need to use the same font in some other place, we might be tempted to just copy/paste it.
 
 SaferFonts, in this case, just bundles the font in a convenient `enum`:
