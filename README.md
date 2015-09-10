@@ -21,21 +21,18 @@ As you might have noticed by now, SaferFont is not a 3rd party library that you 
 
 ###The Font Protocol
 
-The [Font protocol](https://github.com/RuiAAPeres/SaferFonts/blob/master/Font.swift) (suggested by [renatorodrigues](https://github.com/renatorodrigues)), can also be used to make this enum easier to consume. For example with `ArialMT` :
+The [Font protocol](https://github.com/RuiAAPeres/SaferFonts/blob/master/Font.swift) (suggested by [renatorodrigues](https://github.com/renatorodrigues)), can also be used to make this enum easier to consume. For example with the font `FooBar` :
 
 ```swift
-let arialFont = UIFont(font: HelveticaNeue.Bold, size: 15)
+let arialFont = UIFont(font: FooBar.Bold, size: 15)
 ```
 
-In order to make the enum compliant with it:
+In order to make the enum compliant:
 
 ```swift
-private enum ArialMT : String, Font {
-    case Regular = "ArialMT"
-    case Bold = "Arial-BoldMT"
-    case Italic = "Arial-ItalicMT"
-    case BoldItalic = "Arial-BoldItalicMT"
-    
+private enum FooBar : String, Font {
+    case Bold = "FooBar-Bold"
+
     func name() -> String {
         return self.rawValue
     }
