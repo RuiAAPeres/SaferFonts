@@ -1,3 +1,11 @@
+//
+//  Font.swift
+//  SaferFonts
+//
+//  Created by Renato Rodrigues on 24/08/2015.
+//  Copyright © 2015 SaferFonts. All rights reserved.
+//
+
 protocol Font {
     func name() -> String
 }
