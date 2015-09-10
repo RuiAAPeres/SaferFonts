@@ -1,6 +1,6 @@
 # SaferFonts
 
-The goal of SaferFonts is to provide font's names in a safer manner, compared to a more tradional way.
+The goal of SaferFonts is to provide font's names in a safer manner, compared to a more traditional way.
 
 Let's imagine we want to set a `UILabel`'s font:
 
@@ -10,10 +10,10 @@ myLabel.font = UIFont(name: "ArialMT", size: 14)!
 
 This approach is error prone and inherently invites for duplication.
 
-1. We could easily mispell `"ArialMT"`.
+1. We could easily misspell `"ArialMT"`.
 2. If we need to use the same font in some other place, we might be tempted to just copy/paste it.
 
-SaferFonts, in this case, just bundles the font in a convinient enum that you can use:
+SaferFonts, in this case, just bundles the font in a convenient `enum`:
 
 ```swift
 myLabel.font = UIFont(name: ArialMT.Default.rawValue, size: 14)!
