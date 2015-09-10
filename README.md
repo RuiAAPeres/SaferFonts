@@ -25,7 +25,7 @@ As you might have noticed by now, SaferFont is not a 3rd party library that you 
 
 ```swift
 enum ArialMT : String {
-    case Default = "ArialMT"
+    case Normal = "ArialMT"
     case Bold = "Arial-BoldMT"
     case Italic = "Arial-ItalicMT"
     case BoldItalic = "Arial-BoldItalicMT"
@@ -35,7 +35,7 @@ enum ArialMT : String {
 
 ```swift
 enum HelveticaNeue : String {
-    case Default = "HelveticaNeue"
+    case Normal = "HelveticaNeue"
     case Italic = "HelveticaNeue-Italic"
     case Bold = "HelveticaNeue-Bold"
     case BoldItalic = "HelveticaNeue-BoldItalic"
