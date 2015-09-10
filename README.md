@@ -31,3 +31,23 @@ enum ArialMT : String {
     case BoldItalic = "Arial-BoldItalicMT"
 }
 ```
+### HelveticaNeue
+
+```swift
+enum HelveticaNeue : String {
+    case Default = "HelveticaNeue"
+    case Italic = "HelveticaNeue-Italic"
+    case Bold = "HelveticaNeue-Bold"
+    case BoldItalic = "HelveticaNeue-BoldItalic"
+    case Medium = "HelveticaNeue-Medium"
+    case MediumItalic = "HelveticaNeue-MediumItalic"
+    case Light = "HelveticaNeue-Light"
+    case LightItalic = "HelveticaNeue-LightItalic"
+    case UltraLight = "HelveticaNeue-UltraLight"
+    case UltraLightItalic = "HelveticaNeue-UltraLightItalic"
+    case Thin = "HelveticaNeue-Thin"
+    case ThinItalic = "HelveticaNeue-ThinItalic"
+    case CondensedBlack = "HelveticaNeue-CondensedBlack"
+    case CondensedBold = "HelveticaNeue-CondensedBold"
+}
+```
