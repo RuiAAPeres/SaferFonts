@@ -19,7 +19,7 @@ SaferFonts, in this case, just bundles the font in a convinient enum that you ca
 myLabel.font = UIFont(name: ArialMT.Default.rawValue, size: 14)!
 ```
 
-As you might have noticed by now, SaferFont is not a 3rd party library that you can just get using Carthage or Cocopods, but an approach and a databasee of fonts that you can freely use.
+As you might have noticed by now, SaferFont is not a 3rd party library that you can just get using Carthage or Cocopods, but an approach and a database of fonts that you can freely use.
 
 ###ArialMT
 
