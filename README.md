@@ -11,7 +11,7 @@ myLabel.font = UIFont(name: "ArialMT", size: 14)!
 This approach is error prone and inherently invites for duplication.
 
 1. We could easily mispell `"ArialMT"`
-2. If we need to use the same font in some other place, we will start having duplication
+2. If we need to use the same font in some other place, we could potential have duplication
 
 SaferFonts, in this case, just bundles the font in a convinient enum that you can use:
 
