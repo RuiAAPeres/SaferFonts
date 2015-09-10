@@ -1,6 +1,6 @@
 # SaferFonts
 
-The goal of SaferFonts is to provide font's names in a safer manner, compared to a more traditional way.
+The goal of SaferFonts is to provide font's names in a safer manner.
 
 Let's imagine we want to set a `UILabel`'s font:
 
