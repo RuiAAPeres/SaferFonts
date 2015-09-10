@@ -24,7 +24,7 @@ As you might have noticed by now, SaferFont is not a 3rd party library that you 
 The [Font protocol](https://github.com/RuiAAPeres/SaferFonts/blob/master/Font.swift) (suggested by [renatorodrigues](https://github.com/renatorodrigues)), can also be used to make this enum easier to consume. For example with the font `FooBar` :
 
 ```swift
-let arialFont = UIFont(font: FooBar.Bold, size: 15)
+let fooBarFont = UIFont(font: FooBar.Bold, size: 15)
 ```
 
 In order to make the enum compliant:
