@@ -30,7 +30,7 @@ let fooBarFont = UIFont(font: FooBar.Bold, size: 15)
 In order to make the enum compliant:
 
 ```swift
-private enum FooBar : String, Font {
+private enum FooBar: String, Font {
     case Bold = "FooBar-Bold"
 
     func name() -> String {
