@@ -42,7 +42,7 @@ private enum FooBar : String, Font {
 ### ArialMT
 
 ```swift
-enum ArialMT : String {
+enum ArialMT: String {
     case Regular = "ArialMT"
     case Bold = "Arial-BoldMT"
     case Italic = "Arial-ItalicMT"
@@ -52,7 +52,7 @@ enum ArialMT : String {
 ### HelveticaNeue
 
 ```swift
-enum HelveticaNeue : String {
+enum HelveticaNeue: String {
     case Regular = "HelveticaNeue"
     case Italic = "HelveticaNeue-Italic"
     case Bold = "HelveticaNeue-Bold"
