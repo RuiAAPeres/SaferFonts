@@ -19,7 +19,7 @@ myLabel.font = UIFont(name: ArialMT.Default.rawValue, size: 14)!
 
 As you might have noticed by now, SaferFont is not a 3rd party library that you can just get using Carthage or Cocopods. It would be a significant burden to use a library with dozens of fonts, when you just need one or two. So instead, this can be viewed as an approach and a database of fonts that you can use. 
 
-###The Font Protocol
+### The Font Protocol
 
 The [Font protocol](https://github.com/RuiAAPeres/SaferFonts/blob/master/Font.swift) (suggested by [renatorodrigues](https://github.com/renatorodrigues)), can also be used to make this enum easier to consume. For example with the font `FooBar` :
 
@@ -39,7 +39,7 @@ private enum FooBar : String, Font {
 }
 ```
 
-###ArialMT
+### ArialMT
 
 ```swift
 enum ArialMT : String {
